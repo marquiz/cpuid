@@ -318,6 +318,7 @@ type CPUInfo struct {
 	AMDMemEncryption AMDMemEncryptionSupport
 	AVX10Level       uint8
 	maxFunc          uint32
+	MaxFunc          uint32
 	maxExFunc        uint32
 }
 

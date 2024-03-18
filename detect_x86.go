@@ -21,6 +21,7 @@ func initCPU() {
 
 func addInfo(c *CPUInfo, safe bool) {
 	c.maxFunc = maxFunctionID()
+	c.MaxFunc = maxFunctionID()
 	c.maxExFunc = maxExtendedFunction()
 	c.BrandName = brandName()
 	c.CacheLine = cacheLine()
